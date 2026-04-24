@@ -143,4 +143,7 @@ bool Prediction_Step3_UpdatePPred(PredictionConfig* config)
         return false;
     }
     
+    config->p_pred_computed = true;
+    return true;
+}
     config->p_pred
